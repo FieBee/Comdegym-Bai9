@@ -99,16 +99,33 @@
     //     alert(a+","+b+","+c+" khong phai la 3 canh cua 1 tam giac");
     // }
 
+    //                     // b10: tinh so dien tieu thu
+    // let sodien = parseInt(prompt("Nhap so dien tieu thu"))
+    // let tienphaitra = sodien *4000
+    // document.write("So tien phai tra la: "+ tienphaitra + " VND")
 
 
+    //                     // b11
+    // let thunhap = parseInt(prompt("Thu nhap ca nhan la: (VND) "))
+    // let thuesuat
+    // if (thunhap<60000000){
+    //     thuesuat=5
+    // }else if (thunhap>=60000000 && thunhap<120000000){
+    //     thuesuat=10
+    // }else if (thunhap>=120000000){
+    //     thuesuat=15
+    // }
+    // let thue=thunhap*thuesuat/100
+    // document.write("Số tiền thuế phải đóng là: "+ thue+" VND")
 
-    let tien_vay = prompt("Nhập khoản tiền vay");
-    let lai_suat = prompt("Nhập lãi suất %");
-    let nam = prompt("Nhập số năm muốn vay");
 
-    let tien_lai = tien_vay * lai_suat/100;
-    console.log(tien_lai);
-
-    let tien_phai_tra = parseInt(tien_vay) + parseInt(nam * tien_lai);
-    document.write ("Số tiền phải trả là: " + tien_phai_tra + "VNĐ");
+    //                 // b12: tien lai  ngan hang
+    // let tien_vay = parseInt(prompt("Nhập khoản tiền vay (VND)"));
+    // let lai_suat = parseInt(prompt("Nhập lãi suất (%)"));
+    // let nam = parseInt(prompt("Nhập số năm muốn vay"));
+    //
+    //
+    // let tienphaitra = tien_vay * (Math.pow((1+( lai_suat/100)), nam));
+    //
+    // document.write ("Số tiền phải trả là: " + tienphaitra + "VNĐ");
 </script>
